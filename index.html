@@ -10,13 +10,18 @@
 </head>
 <body class="grid place-content-center bg-DarkBlue font-Manrope font-extrabold text-LightCyan ">
   <main class="relative px-4 z-10 grid place-items-center w-screen h-auto">
-    <div class="p-4 w-full sm:w-500 h-auto my-20 rounded-2xl  text-center bg-DarkGrayishBlue ">
+    <div class="p-4  w-full max-w-sm sm:w-500 sm:max-w-none h-auto my-20 rounded-2xl  text-center bg-DarkGrayishBlue ">
       <h1 id="title" class="text-NeonGreen my-9 uppercase tracking-ancho "> </h1><!-- Advice ID goes here -->
       <p id="phrase" class="text-LightCyan mb-16 text-2xl px-4">
         Lorem Ipsum is simply dummy
         text of the printing and typesetting industry.
       </p><!-- Advice text goes here -->
-      <img class="mx-auto mb-16 sm:w-5/6" src="./images/pattern-divider-mobile.svg">
+      <img class="mx-auto mb-16 "  
+      src="./images/pattern-divider-desktop.svg"
+      srcset="./images/pattern-divider-mobile.svg 295w"
+      sizes="(max-width: 600px)295px"
+      
+      >
     </div>
 
     <button id="btn" onclick="api()" class="absolute bottom-10 z-50  w-20 h-20 grid place-content-center bg-NeonGreen rounded-full hover:shadow-3xl hover:shadow-NeonGreen">

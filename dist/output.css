@@ -550,6 +550,11 @@ video {
   margin-bottom: 2.25rem;
 }
 
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mb-16{
   margin-bottom: 4rem;
 }
@@ -570,12 +575,24 @@ video {
   width: 5rem;
 }
 
-.w-full{
-  width: 100%;
+.w-96{
+  width: 24rem;
 }
 
 .w-screen{
   width: 100vw;
+}
+
+.w-375{
+  width: 375px;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.max-w-sm{
+  max-width: 24rem;
 }
 
 .place-content-center{
@@ -665,11 +682,11 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:w-5\/6{
-    width: 83.333333%;
-  }
-
   .sm\:w-500{
     width: 500px;
+  }
+
+  .sm\:max-w-none{
+    max-width: none;
   }
 }

@@ -14,7 +14,8 @@ module.exports = {
         'Manrope':'Manrope',
       },
       width:{
-        '500':'500px'
+        '500':'500px',
+        '375':'375px'
       },
       boxShadow: {
         '3xl': '0 0px 30px 8px ',
