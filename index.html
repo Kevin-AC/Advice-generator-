@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./dist/output.css">
+  <title>Frontend Mentor | Advice generator app</title>
+</head>
+<body class="grid place-content-center bg-DarkBlue font-Manrope font-extrabold text-LightCyan ">
+  <main class="relative px-4 z-10 grid place-items-center w-screen h-auto">
+    <div class="p-4 w-full sm:w-500 h-auto my-20 rounded-2xl  text-center bg-DarkGrayishBlue ">
+      <h1 id="title" class="text-NeonGreen my-9 uppercase tracking-ancho "> </h1><!-- Advice ID goes here -->
+      <p id="phrase" class="text-LightCyan mb-16 text-2xl px-4">
+        Lorem Ipsum is simply dummy
+        text of the printing and typesetting industry.
+      </p><!-- Advice text goes here -->
+      <img class="mx-auto mb-16 sm:w-5/6" src="./images/pattern-divider-mobile.svg">
+    </div>
+
+    <button id="btn" onclick="api()" class="absolute bottom-10 z-50  w-20 h-20 grid place-content-center bg-NeonGreen rounded-full hover:shadow-3xl hover:shadow-NeonGreen">
+      <img width="36" src="./images/icon-dice.svg">
+    </button>
+    
+  </main>
+ 
+  
+  <footer class="text-center">
+    Challenge by <a class="text-NeonGreen" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. <br> 
+    Coded by <a class="text-NeonGreen" href="https://portafolio-kevin-ac.netlify.app/">Kevin Argumedo</a>.
+  </footer>
+  <script src="./main.js" ></script>
+</body>
+</html>
